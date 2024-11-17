@@ -34,7 +34,7 @@ import matplotlib.pyplot as plt
 ### Create the Text using cv2.putText
 ```
 image = np.zeros((300, 600, 3), dtype="uint8")
-text = "ASHWIN KUMAR S"
+text = "BHARATHGANESH S"
 font = cv2.FONT_HERSHEY_SIMPLEX
 cv2.putText(image, text, (50, 150), font, 2, (255, 255, 255), 3)
 ```
